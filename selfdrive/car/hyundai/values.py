@@ -530,7 +530,7 @@ class CAR(Platforms):
       HyundaiCarDocs("GENESIS G70 1ST GEN FACELIFT", "All", car_parts=CarParts.common([CarHarness.hyundai_l])),
     ],
     CarSpecs(mass=4993 * CV.LB_TO_KG, wheelbase=2.83, steerRatio=12.5),
-    flags=HyundaiFlags.CAMERA_SCC | HyundaiFlags.CHECKSUM_CRC8,
+    flags=HyundaiFlags.CAMERA_SCC | HyundaiFlags.ALT_LIMITS | HyundaiFlags.CHECKSUM_CRC8,
   )
   GENESIS_G80 = HyundaiPlatformConfig(
     [HyundaiCarDocs("Genesis G80 2018-19", "All", car_parts=CarParts.common([CarHarness.hyundai_h]))],
