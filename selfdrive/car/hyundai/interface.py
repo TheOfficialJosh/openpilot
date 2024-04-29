@@ -71,7 +71,7 @@ class CarInterface(CarInterfaceBase):
       if 0x38d in fingerprint[0] or 0x38d in fingerprint[2]:
         ret.flags |= HyundaiFlags.USE_FCA.value
 
-    ret.steerActuatorDelay = 0.15  # Testing for GENESIS_G70_1ST_GEN_FL
+    ret.steerActuatorDelay = 0.2  # Testing for GENESIS_G70_1ST_GEN_FL
     ret.steerLimitTimer = 0.4
     CarInterfaceBase.configure_torque_tune(candidate, ret.lateralTuning)
 
