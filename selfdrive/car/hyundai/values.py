@@ -517,6 +517,13 @@ class CAR(Platforms):
     CarSpecs(mass=3673 * CV.LB_TO_KG, wheelbase=2.83, steerRatio=12.9),
     flags=HyundaiFlags.MANDO_RADAR,
   )
+  GENESIS_G70_1ST_GEN_FL = HyundaiPlatformConfig(
+    [
+      HyundaiCarDocs("GENESIS G70 1ST GEN FACELIFT", "All", car_parts=CarParts.common([CarHarness.hyundai_l])),
+    ],
+    CarSpecs(mass=1840, wheelbase=2.835, steerRatio=13.3),
+    flags=HyundaiFlags.ALT_LIMITS | HyundaiFlags.CAMERA_SCC | HyundaiFlags.CHECKSUM_CRC8,
+  )
   GENESIS_GV70_1ST_GEN = HyundaiCanFDPlatformConfig(
     [
       HyundaiCarDocs("Genesis GV70 (2.5T Trim) 2022-23", "All", car_parts=CarParts.common([CarHarness.hyundai_l])),
@@ -524,13 +531,6 @@ class CAR(Platforms):
     ],
     CarSpecs(mass=1950, wheelbase=2.87, steerRatio=14.6),
     flags=HyundaiFlags.RADAR_SCC,
-  )
-  GENESIS_G70_1ST_GEN_FL = HyundaiPlatformConfig(
-    [
-      HyundaiCarDocs("GENESIS G70 1ST GEN FACELIFT", "All", car_parts=CarParts.common([CarHarness.hyundai_l])),
-    ],
-    CarSpecs(mass=4993 * CV.LB_TO_KG, wheelbase=2.835, steerRatio=13.3),
-    flags=HyundaiFlags.ALT_LIMITS | HyundaiFlags.CAMERA_SCC | HyundaiFlags.CHECKSUM_CRC8,
   )
   GENESIS_G80 = HyundaiPlatformConfig(
     [HyundaiCarDocs("Genesis G80 2018-19", "All", car_parts=CarParts.common([CarHarness.hyundai_h]))],
