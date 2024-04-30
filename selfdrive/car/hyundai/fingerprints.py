@@ -1144,6 +1144,7 @@ FW_VERSIONS = {
    CAR.GENESIS_G70_1ST_GEN_FL: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00IK  MFC  AT USA LHD 1.00 1.02 99211-G9500 230712',
+      b'\xf1\x8b #\x10\x13',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00IKPE RDR -----      1.00 1.00 99110-G9600         ',
