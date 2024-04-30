@@ -521,7 +521,7 @@ class CAR(Platforms):
     [
       HyundaiCarDocs("GENESIS G70 1ST GEN FACELIFT", "All", car_parts=CarParts.common([CarHarness.hyundai_l])),
     ],
-    CarSpecs(mass=1840, wheelbase=2.835, steerRatio=13.3 * 1.15),
+    CarSpecs(mass=1840, wheelbase=2.835, steerRatio=13.3 * 1.15), # 15% higher works well
     flags=HyundaiFlags.ALT_LIMITS | HyundaiFlags.CAMERA_SCC | HyundaiFlags.CHECKSUM_CRC8,
   )
   GENESIS_GV70_1ST_GEN = HyundaiCanFDPlatformConfig(
