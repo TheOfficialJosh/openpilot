@@ -42,7 +42,7 @@ class CarControllerParams:
 
     # these cars have significantly more torque than most HKG; limit to 70% of max
     elif CP.flags & HyundaiFlags.ALT_LIMITS:
-      self.STEER_MAX = 330 if CP.carFingerprint in (CAR.GENESIS_G70_1ST_GEN_FL) else 270
+      self.STEER_MAX = 384 if CP.carFingerprint in (CAR.GENESIS_G70_1ST_GEN_FL) else 270
       self.STEER_DELTA_UP = 2
       self.STEER_DELTA_DOWN = 3
 
