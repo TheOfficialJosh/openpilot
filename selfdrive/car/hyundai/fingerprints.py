@@ -117,6 +117,7 @@ FW_VERSIONS = {
       b'\xf1\x00AEhe SCC FHCUP      1.00 1.02 99110-G2100         ',
     ],
     (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00AE  MDPS C 1.00 1.01 56310/G2210 4APHC101',
       b'\xf1\x00AE  MDPS C 1.00 1.01 56310/G2310 4APHC101',
       b'\xf1\x00AE  MDPS C 1.00 1.01 56310/G2510 4APHC101',
       b'\xf1\x00AE  MDPS C 1.00 1.01 56310/G2560 4APHC101',
@@ -417,6 +418,7 @@ FW_VERSIONS = {
       b'\xf1\x00LX2_ SCC FHCUP      1.00 1.03 99110-S8100         ',
       b'\xf1\x00LX2_ SCC FHCUP      1.00 1.04 99110-S8100         ',
       b'\xf1\x00LX2_ SCC FHCUP      1.00 1.05 99110-S8100         ',
+      b'\xf1\x00ON__ FCA FHCUP      1.00 1.00 99110-S9110         ',
       b'\xf1\x00ON__ FCA FHCUP      1.00 1.01 99110-S9110         ',
       b'\xf1\x00ON__ FCA FHCUP      1.00 1.02 99110-S9100         ',
       b'\xf1\x00ON__ FCA FHCUP      1.00 1.03 99110-S9100         ',
@@ -863,6 +865,7 @@ FW_VERSIONS = {
       b'\xf1\x00CN7_ SCC FNCUP      1.00 1.01 99110-AA000         ',
     ],
     (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00CN7 MDPS C 1.00 1.06 56310/AA050 4CNDC106',
       b'\xf1\x00CN7 MDPS C 1.00 1.06 56310/AA070 4CNDC106',
       b'\xf1\x00CN7 MDPS C 1.00 1.06 56310AA050\x00 4CNDC106',
       b'\xf1\x00CN7 MDPS C 1.00 1.07 56310AA050\x00 4CNDC107',
@@ -964,6 +967,7 @@ FW_VERSIONS = {
       b'\xf1\x00CV1 MFC  AT KOR LHD 1.00 1.05 99210-CV000 211027',
       b'\xf1\x00CV1 MFC  AT KOR LHD 1.00 1.06 99210-CV000 220328',
       b'\xf1\x00CV1 MFC  AT USA LHD 1.00 1.00 99210-CV100 220630',
+      b'\xf1\x00CV1 MFC  AT USA LHD 1.00 1.00 99210-CV200 230510',
       b'\xf1\x00CV1 MFC  AT USA LHD 1.00 1.05 99210-CV000 211027',
       b'\xf1\x00CV1 MFC  AT USA LHD 1.00 1.06 99210-CV000 220328',
     ],
@@ -973,6 +977,7 @@ FW_VERSIONS = {
       b'\xf1\x00NE1_ RDR -----      1.00 1.00 99110-GI000         ',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00NE1 MFC  AT CAN LHD 1.00 1.01 99211-GI010 211007',
       b'\xf1\x00NE1 MFC  AT CAN LHD 1.00 1.05 99211-GI010 220614',
       b'\xf1\x00NE1 MFC  AT EUR LHD 1.00 1.01 99211-GI010 211007',
       b'\xf1\x00NE1 MFC  AT EUR LHD 1.00 1.06 99211-GI000 210813',
@@ -1001,6 +1006,7 @@ FW_VERSIONS = {
   },
   CAR.HYUNDAI_TUCSON_4TH_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00NX4 FR_CMR AT CAN LHD 1.00 1.00 99211-N9260 14Y',
       b'\xf1\x00NX4 FR_CMR AT CAN LHD 1.00 1.01 99211-N9100 14A',
       b'\xf1\x00NX4 FR_CMR AT EUR LHD 1.00 1.00 99211-N9220 14K',
       b'\xf1\x00NX4 FR_CMR AT EUR LHD 1.00 2.02 99211-N9000 14E',
@@ -1117,6 +1123,7 @@ FW_VERSIONS = {
       b'\xf1\x00KA4 MFC  AT EUR LHD 1.00 1.06 99210-R0000 220221',
       b'\xf1\x00KA4 MFC  AT KOR LHD 1.00 1.06 99210-R0000 220221',
       b'\xf1\x00KA4 MFC  AT USA LHD 1.00 1.00 99210-R0100 230105',
+      b'\xf1\x00KA4 MFC  AT USA LHD 1.00 1.01 99210-R0100 230710',
       b'\xf1\x00KA4 MFC  AT USA LHD 1.00 1.05 99210-R0000 201221',
       b'\xf1\x00KA4 MFC  AT USA LHD 1.00 1.06 99210-R0000 220221',
       b'\xf1\x00KA4CMFC  AT CHN LHD 1.00 1.01 99211-I4000 210525',
@@ -1131,6 +1138,7 @@ FW_VERSIONS = {
   CAR.KIA_K8_HEV_1ST_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00GL3HMFC  AT KOR LHD 1.00 1.03 99211-L8000 210907',
+      b'\xf1\x00GL3HMFC  AT KOR LHD 1.00 1.04 99211-L8000 230207',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00GL3_ RDR -----      1.00 1.02 99110-L8000         ',
